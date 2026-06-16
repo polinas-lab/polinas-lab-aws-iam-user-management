@@ -1,7 +1,3 @@
-<h1>Project Journey</h1>
-
----
-
 AWS IAM User Management Project
 
 <h1><b>Project Journey</b></h1>
