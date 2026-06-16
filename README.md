@@ -42,9 +42,9 @@ By understanding these components first, I could build a secure access managemen
 
 The screenshot below shows the IAM service where I explored the different identity and access management components.
 
-```markdown
+
 ![IAM Dashboard](IAM-screenshots/iam-dashboard.png)
-```
+
 
 <h3>What I Learned</h3>
 
@@ -72,9 +72,9 @@ Instead of assigning permissions directly to users, AWS recommends assigning per
 
 The screenshot below shows the AdminGroup being created and configured.
 
-```markdown
+
 ![Admin Group Created](IAM-screenshots/admin-group-created.png)
-```
+
 
 <h3>Why This Matters</h3>
 
