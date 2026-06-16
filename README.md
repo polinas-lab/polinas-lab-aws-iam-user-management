@@ -65,7 +65,7 @@ Instead of assigning permissions directly to users, AWS recommends assigning per
 The screenshot below shows the AdminGroup being created and configured.
 
 
-![Admin Group Created](IAM-screenshots/admin-group-created.png)
+![Admin Group Created](IAM-screenshots/admin-group-created-success.png)
 
 
 <h3>Why This Matters</h3>
