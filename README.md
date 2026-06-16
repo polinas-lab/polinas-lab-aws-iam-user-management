@@ -1,6 +1,6 @@
-AWS IAM User Management Project
-
 <h1><b>Project Journey</b></h1>
+
+<h1><u>AWS IAM User Management Project</u></h1>
 
 <h2>Why I Started This Project</h2>
 
