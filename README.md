@@ -103,9 +103,9 @@ This policy allows developers to create and manage most AWS resources while prev
 
 The screenshot below shows the DeveloperGroup configuration.
 
-```markdown
+
 ![Developer Group Created](IAM-screenshots/developer-group-created.png)
-```
+
 
 <h3>Why This Matters</h3>
 
@@ -138,9 +138,9 @@ Users in this group can view AWS resources but cannot create, modify, or delete 
 
 The screenshot below shows the ReadOnlyGroup setup.
 
-```markdown
+
 ![ReadOnly Group Created](IAM-screenshots/readonly-group-created.png)
-```
+
 
 <h3>Use Cases for Read-Only Access</h3>
 
@@ -167,21 +167,21 @@ Each user was assigned to its respective group.
 
 <b>Administrator User Creation</b>
 
-```markdown
+
 ![Admin User Created](IAM-screenshots/admin-user-created.png)
-```
+
 
 <b>Developer User Creation</b>
 
-```markdown
+
 ![Developer User Created](IAM-screenshots/developer-user-created.png)
-```
+
 
 <b>ReadOnly User Creation</b>
 
-```markdown
+
 ![ReadOnly User Created](IAM-screenshots/readonly-user-created.png)
-```
+
 
 <h3>What I Learned</h3>
 
@@ -209,9 +209,9 @@ I logged in as the ReadOnly user and attempted to create an Amazon S3 bucket.
 
 This confirmed that the user could view resources but could not make changes.
 
-```markdown
+
 ![ReadOnly Access Denied](IAM-screenshots/readonly-access-denied.png)
-```
+
 
 ---
 
@@ -225,9 +225,9 @@ I logged in as the Developer user and attempted to create an S3 bucket.
 
 This confirmed that the PowerUserAccess policy allowed resource creation.
 
-```markdown
+
 ![Developer Bucket Created](IAM-screenshots/developer-bucket-created.png)
-```
+
 
 Next, I attempted to create a new IAM user.
 
@@ -237,9 +237,9 @@ Next, I attempted to create a new IAM user.
 
 This confirmed that developers could not manage IAM resources.
 
-```markdown
+
 ![Developer IAM Not Created](IAM-screenshots/developer-iam-notcreated.png)
-```
+
 
 ---
 
@@ -253,9 +253,9 @@ Finally, I logged in as the Administrator user and attempted to create a new IAM
 
 This verified that AdministratorAccess provided full AWS permissions.
 
-```markdown
+
 ![Admin IAM User Created](IAM-screenshots/admin-user-iamcreated.png)
-```
+
 
 ---
 
