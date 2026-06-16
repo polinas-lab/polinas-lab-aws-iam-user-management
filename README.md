@@ -38,14 +38,6 @@ IAM is the service responsible for controlling who can access AWS resources and 
 
 By understanding these components first, I could build a secure access management structure rather than assigning permissions randomly.
 
-<b>AWS IAM Dashboard</b>
-
-The screenshot below shows the IAM service where I explored the different identity and access management components.
-
-
-![IAM Dashboard](IAM-screenshots/iam-dashboard.png)
-
-
 <h3>What I Learned</h3>
 
 * IAM is the foundation of AWS security.
